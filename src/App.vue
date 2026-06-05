@@ -1,8 +1,10 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
-  <RouterView />
+  <RouterView name="navbar" />
+  <RouterView name="sidebar" />
+  <RouterView name="default" />
+  <RouterView name="footer" />
 </template>
 
 <style scoped></style>
