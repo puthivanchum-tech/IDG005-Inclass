@@ -36,7 +36,7 @@
                     </li>
                     <li class="nav-item">
                         <router-link :to="{ name: 'Students' }" active-class="active" class="nav-link">
-                            <i class="nav-icon fas fa-user-graduate"></i>
+                            <i class="nav-icon fas fa-users"></i>
                             <p>Students</p>
                         </router-link>
                     </li>

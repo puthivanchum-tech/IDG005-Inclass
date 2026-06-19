@@ -96,6 +96,7 @@ const columns = [
     cell: ({
       row
     }) => [
+        // delete btn
         h('button',
           {
             onClick: () => { },
@@ -103,6 +104,7 @@ const columns = [
           },
           h('i', { class: 'fa fa-trash' })
         ),
+        // view btn
         h('button',
           {
             onClick: () => { },
